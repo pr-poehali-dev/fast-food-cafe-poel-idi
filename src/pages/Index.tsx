@@ -252,7 +252,7 @@ export default function Index() {
             <p className="text-xl text-gray-600">Ждём вас каждый день!</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <Card className="p-8 text-center hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Icon name="MapPin" size={32} className="text-primary" />
@@ -275,8 +275,15 @@ export default function Index() {
               <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Icon name="Phone" size={32} className="text-primary" />
               </div>
-              <h3 className="font-bold text-xl mb-2">Связь</h3>
+              <h3 className="font-bold text-xl mb-2">Телефон</h3>
               <p className="text-gray-600">+7 (908) 777-21-32</p>
+            </Card>
+
+            <Card className="p-8 text-center hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="bg-secondary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Icon name="Mail" size={32} className="text-secondary" />
+              </div>
+              <h3 className="font-bold text-xl mb-2">Email</h3>
               <p className="text-gray-600">Poelidi@mail.ru</p>
             </Card>
           </div>
