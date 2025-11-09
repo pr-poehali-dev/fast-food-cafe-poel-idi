@@ -116,17 +116,14 @@ export default function Index() {
         <div className="container mx-auto px-4 py-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in">
-              <div className="inline-block bg-primary text-white px-4 py-2 rounded-full text-sm font-bold mb-4">
-                ⚡ Готовим за 5 минут
-              </div>
               <h2 className="text-5xl md:text-7xl font-extrabold leading-tight">
-                <span className="text-primary">Быстро.</span><br />
                 Вкусно.<br />
+                <span className="text-primary">Быстро.</span><br />
                 <span className="text-secondary">Сытно.</span>
               </h2>
               <p className="text-xl text-gray-700">
                 Кафе быстрого питания в самом центре Красноярска. 
-                <span className="font-bold text-primary">Готовим за 5 минут</span> — для тех, кто ценит время и качество!
+                Большой выбор блюд для тех, кто ценит время и качество!
               </p>
               <div className="flex gap-4">
                 <Button
@@ -157,11 +154,11 @@ export default function Index() {
               <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-6 animate-fade-in">
                 <div className="flex items-center gap-3">
                   <div className="bg-primary/10 rounded-full p-3">
-                    <Icon name="Zap" size={24} className="text-primary" />
+                    <Icon name="Clock" size={24} className="text-primary" />
                   </div>
                   <div>
-                    <p className="font-bold text-lg text-primary">⚡ За 5 минут</p>
-                    <p className="text-gray-600">готово и горячее!</p>
+                    <p className="font-bold text-lg">Работаем с 8:00</p>
+                    <p className="text-gray-600">до 23:00 каждый день</p>
                   </div>
                 </div>
               </div>
@@ -174,7 +171,7 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Наше меню</h2>
-            <p className="text-xl text-gray-600">Выбирай что по душе — <span className="font-bold text-primary">приготовим за 5 минут!</span></p>
+            <p className="text-xl text-gray-600">Выбирай что по душе — всё готовим свежим и быстро!</p>
           </div>
 
           <Tabs defaultValue="burgers" className="w-full">
