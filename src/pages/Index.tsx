@@ -276,9 +276,7 @@ export default function Index() {
                 <Icon name="Phone" size={32} className="text-primary" />
               </div>
               <h3 className="font-bold text-xl mb-2">Телефон</h3>
-              <a href="tel:+79087772132" className="text-gray-600 hover:text-primary transition-colors">
-                +7 (908) 777-21-32
-              </a>
+              <p className="text-gray-600">+7 (908) 777-21-32</p>
             </Card>
 
             <Card className="p-8 text-center hover:shadow-xl transition-all duration-300 hover:scale-105">
@@ -286,19 +284,15 @@ export default function Index() {
                 <Icon name="Mail" size={32} className="text-secondary" />
               </div>
               <h3 className="font-bold text-xl mb-2">Email</h3>
-              <a href="mailto:Poelidi@mail.ru" className="text-gray-600 hover:text-secondary transition-colors">
-                Poelidi@mail.ru
-              </a>
+              <p className="text-gray-600">Poelidi@mail.ru</p>
             </Card>
           </div>
 
           <div className="mt-12 text-center">
-            <a href="tel:+79087772132">
-              <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white px-8">
-                <Icon name="Phone" size={20} className="mr-2" />
-                Позвонить нам
-              </Button>
-            </a>
+            <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white px-8">
+              <Icon name="Phone" size={20} className="mr-2" />
+              Позвонить нам
+            </Button>
           </div>
         </div>
       </section>
