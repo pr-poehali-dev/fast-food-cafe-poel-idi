@@ -296,7 +296,7 @@ export default function Index() {
             <Icon name="Utensils" size={24} />
             <span className="text-xl font-bold">Поел Иди</span>
           </div>
-          <p className="text-gray-400">© 2024 Кафе быстрого питания. Все права защищены.</p>
+          <p className="text-gray-400">© 2025 Кафе быстрого питания. Все права защищены.</p>
         </div>
       </footer>
     </div>
