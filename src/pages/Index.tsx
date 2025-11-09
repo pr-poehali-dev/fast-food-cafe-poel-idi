@@ -258,7 +258,7 @@ export default function Index() {
                 <Icon name="MapPin" size={32} className="text-primary" />
               </div>
               <h3 className="font-bold text-xl mb-2">Адрес</h3>
-              <p className="text-gray-600">просп. Мира, 65</p>
+              <p className="text-gray-600">Просп. Мира, 65</p>
               <p className="text-gray-600">г. Красноярск, 660049</p>
             </Card>
 
