@@ -80,7 +80,7 @@ export default function Index() {
           <div className="flex items-center justify-between">
             <h1 className="text-2xl md:text-3xl font-bold text-primary flex items-center gap-2">
               <Icon name="Utensils" size={32} />
-              Поел Иди
+              Поел? Иди.
             </h1>
             <div className="flex gap-6">
               <button
@@ -301,7 +301,7 @@ export default function Index() {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Icon name="Utensils" size={24} />
-            <span className="text-xl font-bold">Поел Иди</span>
+            <span className="text-xl font-bold">Поел? Иди.</span>
           </div>
           <p className="text-gray-400">© 2025 Кафе быстрого питания. Все права защищены.</p>
         </div>
